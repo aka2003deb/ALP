@@ -1,4 +1,4 @@
-//the program given below shows an ALP to transfer a block of data(non overlapping) from ROM to RAM followed by data exchange between two sections of RAM
+;the program given below shows an ALP to transfer a block of data(non overlapping) from ROM to RAM followed by data exchange between two sections of RAM
 PRESERVE8
 Stack	EQU 0x00000100
 		AREA STACK, NOINIT, READWRITE
